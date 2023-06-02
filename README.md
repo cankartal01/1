@@ -9,8 +9,12 @@ Members :<br>
 
 ### Blocks and Commands ###
 
-* program :**GO** program **STOP** | statements program | program statements | statements  | error 
-
+* program :
+ 	**|** GO program STOP <br>
+        **|** statements program <br>
+	**|** program statements <br>
+	**|** statements <br>
+	**|** error <br>
 * statement :  statements
         **|** printnumberStatement
         **|** ınputStatement
