@@ -24,11 +24,14 @@ Members :<br>
 	| methodSingleParameterStatement
 	| methodDoubleParameterStatement
 
-* < printStringStatement > :  **OUTPUT**  **STRING**
+* printStringStatement:
+    	PRINT STRING 
 
-* < printnumberStatement > : **OUTPUT** term
+* printnumberStatement:
+        PRINT term 
 
-* < assignmentStatement > : **IDENTIFIER** '=' exp 
+* assignmentStatement:
+        ASSIGN '=' exp
 
 * funcStatement : **FUNC** **FUNCNAME** statements **RETURN** statements **SEMICOLON** | **FUNC** **FUNCNAME** **LP** term **RP** **RETURN** | **FUNC** **FUNCNAME** **LP** term **COMMA** term **RP** **RETURN** IfElseStatement
 
