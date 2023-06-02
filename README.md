@@ -7,10 +7,6 @@ Members :<br>
 <br>
 **Mustafa Can Kartal    - 20180808046**
 
-## BNF Form
-
-&nbsp;
-<a name="commands"></a>
 ### Blocks and Commands ###
 
 * < program > :**GO** program **STOP** | statements program | program statements | statements  | error 
