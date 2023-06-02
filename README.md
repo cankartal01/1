@@ -15,7 +15,7 @@ Members :<br>
 	**|** program statements <br>
 	**|** statements <br>
 	**|** error <br>
-* **statement : **  
+* **statement :**  
  	statements <br>
         **|** printnumberStatement <br>
         **|** ınputStatement <br> 
@@ -30,22 +30,24 @@ Members :<br>
 	**|** methodDoubleParameterStatement <br>
 
 * **printStringStatement:**<br>
-    	**PRINT STRING**
+    	PRINT STRING
 
 * **printnumberStatement:**<br>
-        **PRINT term**
+        PRINT term
 
 * assignmentStatement:<br>
-        **ASSIGN '='exp**
+        ASSIGN '='exp
 
 * funcStatement : <br>
 	METHOD FUNCNAME statements RETURN statements SEMICOLON <br>
 	**|** METHOD FUNCNAME OPP term CLP RETURN <br>
 	**|** METHOD FUNCNAME OPP term COMMA term CLP RETURN IfElseStatement <br>
 
-* commentStatement : **COMMENT**
+* commentStatement : 
+	COMMENT
 
-* inputStatement: **INPUT**
+* inputStatement:
+	 INPUT
 
 * booleanStatements :<br>
  	INT EQUALS INT <br>
