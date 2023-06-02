@@ -2,7 +2,8 @@
 
 **Project Name:** famus
 
-Members : **Mehmet Fatih Kızıldağ - 20190808041**
+Members :<br>
+**Mehmet Fatih Kızıldağ - 20190808041**
 <br>
 **Mustafa Can Kartal    - 20180808046**
 
