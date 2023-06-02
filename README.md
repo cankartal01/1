@@ -2,10 +2,8 @@
 
 **Project Name:** famus
 
-**How it runs?**
-
-  - make
-- ./famus < exampleprog1.free
+Members : **Mehmet Fatih Kızıldağ - 20190808041**
+	  **Mustafa Can Kartal    - 20180808046**
 
 &nbsp;
 &nbsp;
