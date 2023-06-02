@@ -38,7 +38,10 @@ Members :<br>
 * assignmentStatement:<br>
         **ASSIGN '='exp**
 
-* funcStatement : **FUNC** **FUNCNAME** statements **RETURN** statements **SEMICOLON** | **FUNC** **FUNCNAME** **LP** term **RP** **RETURN** | **FUNC** **FUNCNAME** **LP** term **COMMA** term **RP** **RETURN** IfElseStatement
+* funcStatement : <br>
+	METHOD FUNCNAME statements RETURN statements SEMICOLON <br>
+	**|** METHOD FUNCNAME OPP term CLP RETURN <br>
+	**|** METHOD FUNCNAME OPP term COMMA term CLP RETURN IfElseStatement <br>
 
 * commentStatement : **COMMENT**
 
