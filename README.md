@@ -106,12 +106,17 @@ Members :<br>
  **|** IDENTIFIER assignmentOperator IDENTIFIER<br>
 
 *  **orExpression :**<br>
-   BOOL OR BOOL
+        BOOL OR BOOL
 
 *  **andExpression :** <br>
-	 BOOL AND BOOL
+	BOOL AND BOOL
 
-* < assignmentOperator > : **EQUALS** | **BIGGER_EQUALS**  | **SMALLER_EQUALS**  | **BIGGER**  | **SMALLER**
+* **assignmentOperator :** <br>
+ EQUALS <br>
+ | BIGGER_EQUALS  <br>
+ | SMALLER_EQUALS<br>
+ | BIGGER<br>
+ | SMALLER<br>
 
 
 &nbsp;
