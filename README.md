@@ -100,7 +100,10 @@ Members :<br>
 
 
 
-* < comparisonExpression > :  **EUCLID**  assignmentOperator **EUCLID**  | **IDENTIFIER** assignmentOperator **EUCLID** | **IDENTIFIER** assignmentOperator **IDENTIFIER**
+* < comparisonExpression > :  <br>
+ EUCLID  assignmentOperator EUCLID <br>
+ **|** IDENTIFIER assignmentOperator EUCLID <br>
+ **|** IDENTIFIER assignmentOperator IDENTIFIER<br>
 
 * < orExpression > : **BOOL OR BOOL**
 
