@@ -113,10 +113,10 @@ Members :<br>
 
 * **assignmentOperator :** <br>
  EQUALS <br>
- | BIGGER_EQUALS  <br>
- | SMALLER_EQUALS<br>
- | BIGGER<br>
- | SMALLER<br>
+ **|** BIGGER_EQUALS  <br>
+ **|** SMALLER_EQUALS<br>
+ **|** BIGGER<br>
+ **|** SMALLER<br>
 
 
 &nbsp;
