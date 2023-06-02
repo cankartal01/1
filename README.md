@@ -4,7 +4,7 @@
 
 Members : **Mehmet Fatih Kızıldağ - 20190808041**
 <br>
-<tab>	  **Mustafa Can Kartal    - 20180808046**
+**Mustafa Can Kartal    - 20180808046**
 
 &nbsp;
 &nbsp;
