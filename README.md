@@ -29,7 +29,18 @@
 
 * < program > :**GO** program **STOP** | statements program | program statements | statements  | error 
 
-*  < statement > :  statements | printnumberStatement | scannerStatement | IfElseStatement | whileStatement | commentStatement | assignmentStatement | printStringStatement | boolStatement | funcStatement
+*  < statement > :  statements
+        | printnumberStatement
+        | ınputStatement
+        | IfElseStatement
+        | loopStatement
+        | commentStatement
+        | assignmentStatement
+    	| printStringStatement
+    	| booleanStatement
+	| methodStatement
+	| methodSingleParameterStatement
+	| methodDoubleParameterStatement
 
 * < printStringStatement > :  **OUTPUT**  **STRING**
 
@@ -37,13 +48,13 @@
 
 * < assignmentStatement > : **IDENTIFIER** '=' exp 
 
-* < funcStatement > : **FUNC** **FUNCNAME** statements **RETURN** statements **SEMICOLON** | **FUNC** **FUNCNAME** **LP** term **RP** **RETURN** | **FUNC** **FUNCNAME** **LP** term **COMMA** term **RP** **RETURN** IfElseStatement
+* funcStatement : **FUNC** **FUNCNAME** statements **RETURN** statements **SEMICOLON** | **FUNC** **FUNCNAME** **LP** term **RP** **RETURN** | **FUNC** **FUNCNAME** **LP** term **COMMA** term **RP** **RETURN** IfElseStatement
 
-* < commentStatement > : **COMMENT**
+* commentStatement : **COMMENT**
 
-* < scannerStatement ? : **SCANNER**
+* scannerStatement: **SCANNER**
 
-* boolStatements : **INT EQUALS INT** | **INT BIGGER INT** | **INT SMALLER INT** | **INT BIGGER_EQUALS INT** | **INT SMALLER_EQUALS INT** | **INT AND INT** | **INT OR INT** |
+* boolStatements : **INT EQUALS INT | INT BIGGER INT | INT SMALLER INT | INT BIGGER_EQUALS INT | INT SMALLER_EQUALS INT | INT AND INT | INT OR INT |
 
 * IfElseStatements:  **IF booleanExpression exp ELSE exp | IF booleanExpression PRINT term ELSE PRINT term | IF term EQUALS term exp ELSE  | IF OPP term MOD term CLP EQUALS term  | IF term EQUALS term PRINT STRING ELSE PRINT STRING**
 
