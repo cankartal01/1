@@ -122,20 +122,9 @@ Members :<br>
 <a name="ExplanationSysntax"></a>
 ## Explanation Of the Syntax
 
-:arrow_forward: COMMENT LINE DESCRIPTION
 
-One of the statemants is the comment line. Thanks to the comment line, the user can explain the code blocks. The program defines the comment line with two "//" characters. The command line consists of these characters and the sentence(s) between these characters.
-
-```
-START
-//something//
-END
-```
-> NO OUTPUT
-
-:arrow_forward: PRINT DESCRIPTION
-
-In Freedom language, "print" is used to display values on the screen. We print with the keyword "OUTPUT" and the character ":". We write the expressions we want to be printed on the screen in the field specified with "OUTPUT:". The value printed in a print operation can be a character value, a string value, an integer value, an euclid value, or an expression.
+* **PRINT DESCRIPTION-->**
+In Famus language, "print" is used to display values on the screen. We print with the keyword "PRINT" and the character ":". 
 
 ```
 START
