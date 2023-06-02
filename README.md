@@ -80,14 +80,14 @@ Members :<br>
 	comparisonExpression  <br>
 	**|** orExpression <br>
 	**|** andExpression  <br>
-	**|** boolExpression <br>
+	**|** booleanExpression <br>
 
 *  **exp**  : 
   term  <br>
   **|**  exp '+' term  <br> 
   **|**  exp '-' term <br>
   **|**  exp MOD term <br>
-  **|**  FUNCNAME LP term COMMA term RP  <br>
+  **|**  FUNCNAME OPP term COMMA term CLP  <br>
 
 *  **boolExpression**  :  
   	term EQUALS term   <br>
@@ -101,15 +101,15 @@ Members :<br>
 
 
 * **comparisonExpression :**  <br>
- EUCLID  assignmentOperator EUCLID <br>
- **|** IDENTIFIER assignmentOperator EUCLID <br>
- **|** IDENTIFIER assignmentOperator IDENTIFIER<br>
+ INT assignmentOperator INT <br>
+ **|** ASSIGN assignmentOperator INT <br>
+
 
 *  **orExpression :**<br>
-        BOOL OR BOOL
+        BOOLEAN OR BOOLEAN
 
 *  **andExpression :** <br>
-	BOOL AND BOOL
+	BOOLEAN AND BOOLEAN
 
 * **assignmentOperator :** <br>
  EQUALS <br>
