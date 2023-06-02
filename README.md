@@ -127,28 +127,25 @@ Members :<br>
 In Famus language, "print" is used to display values on the screen. We print with the keyword "PRINT" and the character ":". 
 
 ```
-START
+GO
 PRINT:"SELAM"
-END
+STOP
 
 ```
 > SELAM
 
 
 
-:arrow_forward: BOOLEAN OPERATION DESCRIPTION
+* **BOOLEAN OPERATION DESCRIPTION-->
 
-In Freedon, Boolean Operators are EQUALS, BIGGER, SMALLER, BIGGER_EQUALS, SMALLER_EQUALS, AND, OR or NOT. Boolean Operators can be operators that combine multiple boolean expressions or values and provide a single boolean output (such as AND, OR, or NOT). The primary use of these boolean tools is to implement statements that control if decisions and while loops. Or there may be operators that compare values and return TRUE or FALSE (like EQUALS, BIGGER, SMALLER, BIGGER_EQUALS or SMALLER_EQUALS).
+In Famus, the Boolean operators are EQUALS, GREATER, LESS, GREATER_EQUALS, LESS_EQUALS, AND, OR, or NOT. There may be operators that compare values and return TRUE or FALSE (like EQUALS, GREATER, LESS, GREATER_EQUALS, or LESS_EQUALS).
 
 ```
-START
-5==5
-2>=7
+GO
+1==2
 1<4
-END
+STOP
 ```
-> TRUE
-
 > FALSE
 
 > TRUE
