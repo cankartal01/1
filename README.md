@@ -136,7 +136,7 @@ STOP
 
 
 
-* **BOOLEAN OPERATION DESCRIPTION-->
+* **BOOLEAN OPERATION DESCRIPTION-->**
 
 In Famus, the Boolean operators are EQUALS, GREATER, LESS, GREATER_EQUALS, LESS_EQUALS, AND, OR, or NOT. There may be operators that compare values and return TRUE or FALSE (like EQUALS, GREATER, LESS, GREATER_EQUALS, or LESS_EQUALS).
 
@@ -150,7 +150,7 @@ STOP
 
 > TRUE
 
-* **IF ELSE-->
+* **IF ELSE-->**
 
 In the Famus language, the conditional statement consists of two sections, the "if" part and the "else" part. The "if" section is utilized to determine the code block that will be executed if the specified condition is true. Conversely, the "else" section is employed to define the code block that will be executed if the same condition is false, in other words, it executes the statements following the "else" keyword.
 
@@ -165,39 +165,19 @@ STOP
 ```
 > 1
 
-:arrow_forward: WHILE DESCRIPTION
+* **LOOP DESCRIPTION-->**
 
 The while loop takes a single parameter and loops as long as that parameter is true. In our programming language, we can use a previously assigned variable as a parameter in a while loop.
 ```
-START
+GO
 s = 0
-WHILE s < 2 RETURN
+LOOP s < 3 RETURN
   s+5;
-END
+STOP
 ```
-> 10
+> 15
 
-:arrow_forward: WHILE 2 DESCRIPTION
-
-The while loop takes a single parameter and loops as long as that parameter is true. In our programming language, we can use a previously assigned variable as a parameter in a while loop. We also have the flexibility to use multiple while loops in a row.
-```
-START 
-WHILE 2<5 RETURN OUTPUT:2;
-
-i = 3
-s = 2
-WHILE i<4 RETURN s+2;
-END 
-```
-> 2
-
-> 2
-
-> 2
-
-> 4
-
-:arrow_forward: METHOD DESCRIPTION
+* **METHOD DESCRIPTION-->**
 
 Methods can be mathematical, logical, etc. without directly changing the application's data. It is a programming approach that returns results by going through operations. To define a function in Freedom language, it starts with the FUNC keyword and after the function name, the function name is defined with the " : " sign, then the parameter is added in parentheses according to the function and the method is written with the RETURN keyword.
 ```
