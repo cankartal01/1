@@ -7,20 +7,6 @@ Members :<br>
 <br>
 **Mustafa Can Kartal    - 20180808046**
 
-&nbsp;
-&nbsp;
-&nbsp;
-
-1. [ BNF Form ](#BNF)
-   * [Blocks and Commands](#commands)
-   * [Expressions](#expressions)
-   * [Types](#types)
-2. [ Explanation Of the Syntax ](#ExplanationSyntax)
-3. [ Design Features ](#Design) 
-
-&nbsp;
-&nbsp;
-<a name="BNF"></a>
 ## BNF Form
 
 &nbsp;
