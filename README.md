@@ -1,6 +1,6 @@
 **Famus Language**
 
-**Project Name:** famus
+**Project Name:** Famus
 
 Members :<br>
 **[Mehmet Fatih Kızıldağ - 20190808041](https://github.com/FatihKizildag)**
