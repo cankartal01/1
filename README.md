@@ -193,56 +193,20 @@ STOP
 ```
 > 5
 
-:arrow_forward: ERROR HANDLING DESCRIPTON
+* **ERROR HANDLING DESCRIPTON-->**
 
-Error handling has been added to our programming language for predicting, detecting and solving programming, application and communication errors, and as an error message, the user is told that the error handling has occurred and on which line it is.
+Error handling has been incorporated into our programming language to anticipate, identify, and resolve programming, application, and communication errors. When an error occurs, the user is provided with an error message indicating that error handling has been triggered and the line number where the error has occurred.
 ```
-START 
-a = 5
-b = 3
-
-asdasdasdasds //error handling//
-//i written the wrong code in upper line.//
-
-END
+GO 
+a = 1  /*line1
+b = 2  /*line2
+c = 7  /*line3
+unrecognized_text  /*line4
+STOP /*line5
 ```
-> syntax error on line 5
+> syntax error on line 4
 
-
-:arrow_forward: Example Program
-
-```
-START
-
-a = 28
-b = 28
-
-FUNC gcd: ( a , b ) RETURN
-	IF b == 0 a
-	ELSE
-	    c = a % b
-	    WHILE c != 0 RETURN
-		a = b
-		b = c
-		c = a % b
-	    b
-
-d = gcd: (a , b)
-FUNC isperfectnumber: ( d ) RETURN
-	e = 0
-	i = 1
-	WHILE i < d RETURN
-		IF (d % i) == 0 e = e + i
-	IF e == d OUTPUT: "TRUE"
-	ELSE OUTPUT: "FALSE"
-END
-
-```
-> 28
-
-> TRUE
-
-:arrow_forward: Example Program 2
+* **Example Program-->**
 
 ```
 GO 
@@ -260,8 +224,7 @@ STOP
 
 
 
-&nbsp;
-<a name="Design"></a>
+
 ## Design Features
 
 DESCRIPTION
