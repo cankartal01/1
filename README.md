@@ -118,7 +118,7 @@ Members :<br>
  **|** BIGGER<br>
  **|** SMALLER<br>
 
-&nbsp;
+
 <a name="ExplanationSysntax"></a>
 ## Explanation Of the Syntax
 
@@ -281,30 +281,16 @@ END
 :arrow_forward: Example Program 2
 
 ```
-START
+GO 
+a = 5
+b = 3
+METHOD hangisibuyuk: (a , b) RETURN 
+     IF a>b 
+         PRINT: 1
+     ELSE 
+         PRINT: 2
 
-a = 10
-b = 5
-
-FUNC gcd: ( a , b ) RETURN
-	IF b == 0 a
-	ELSE
-	    c = a % b
-	    WHILE c != 0 RETURN
-		a = b
-		b = c
-		c = a % b
-	    b
-
-d = gcd: (a , b)
-FUNC isperfectnumber: ( d ) RETURN
-	e = 0
-	i = 1
-	WHILE i < d RETURN
-		IF (d % i) == 0 e = e + i
-	IF e == d OUTPUT: "TRUE"
-	ELSE OUTPUT: "FALSE"
-END
+STOP
 
 ```
 > 5
