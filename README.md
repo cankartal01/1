@@ -69,7 +69,7 @@ The "Famus" programming language is a beginner-level language that includes basi
 	**|** IF term EQUALS term PRINT STRING ELSE PRINT STRING<br>
 
 *  **loopStatement:** <br> LOOP term SMALLER term RETURN exp SEMICOLON       
-        LOOP term BIGGER term RETURN exp SEMICOLON      <br>
+        **|** LOOP term BIGGER term RETURN exp SEMICOLON      <br>
     	**|** LOOP term SMALLER term RETURN PRINT exp SEMICOLON<br>
     	**|** LOOP term BIGGER term RETURN PRINT exp SEMICOLON <br>
 	**|** LOOP term SMALLER term RETURN PRINT STRING SEMICOLON <br>
