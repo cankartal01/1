@@ -27,7 +27,7 @@
 <a name="commands"></a>
 ### Blocks and Commands ###
 
-* < program > :**START** program **END** | statements program | program statements | statements  | error 
+* < program > :**GO** program **STOP** | statements program | program statements | statements  | error 
 
 *  < statement > :  statements | printnumberStatement | scannerStatement | IfElseStatement | whileStatement | commentStatement | assignmentStatement | printStringStatement | boolStatement | funcStatement
 
