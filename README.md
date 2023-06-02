@@ -84,7 +84,14 @@ Members :<br>
 
 * < exp > : term  |  exp '+' term   |  exp '-' term |  exp **MOD** term |  **FUNCNAME** **LP** term **COMMA** term **RP**    
 
-* < boolExpression > :  term **EQUALS** term   | term **BIGGER** term   | term **SMALLER** term    | term **BIGGER_EQUALS** term  | term **SMALLER_EQUALS** term 	 | term **AND** term | term **OR** term
+*  boolExpression  :  
+  	term **EQUALS** term   <br>
+  	**|** term **BIGGER** term   <br>
+	**|** term **SMALLER** term    <br>
+	**|** term **BIGGER_EQUALS** term <br> 
+	**|** term **SMALLER_EQUALS** term <br>	 
+	**|** term **AND** term <br>
+	**|** term **OR** term <br>
 
 
 
