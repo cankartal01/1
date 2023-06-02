@@ -179,19 +179,19 @@ STOP
 
 * **METHOD DESCRIPTION-->**
 
-Methods can be mathematical, logical, etc. without directly changing the application's data. It is a programming approach that returns results by going through operations. To define a function in Freedom language, it starts with the FUNC keyword and after the function name, the function name is defined with the " : " sign, then the parameter is added in parentheses according to the function and the method is written with the RETURN keyword.
+To declare a function in the Famus language, the declaration begins with the keyword "METHOD". After that, the function name is specified using the " : " symbol, followed by parentheses where the parameters are defined based on the function's requirements. Finally, the function body is written using the "RETURN" keyword.
 ```
-START 
-a = 5
-b = 3
-FUNC ekranayazdir: (a , b) RETURN 
+GO 
+a = 1
+b = 2
+METHOD yaz: (a , b) RETURN 
      IF a<b 
-         OUTPUT:4 
+         OUTPUT:5
      ELSE 
-         OUTPUT:3
-END
+         OUTPUT:6
+STOP
 ```
-> 3
+> 5
 
 :arrow_forward: ERROR HANDLING DESCRIPTON
 
