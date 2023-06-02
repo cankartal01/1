@@ -43,7 +43,7 @@ Members :<br>
 
 * IfElseStatements:  **IF booleanExpression exp ELSE exp | IF booleanExpression PRINT term ELSE PRINT term | IF term EQUALS term exp ELSE  | IF OPP term MOD term CLP EQUALS term  | IF term EQUALS term PRINT STRING ELSE PRINT STRING**
 
-*  loopStatement:  LOOP term SMALLER term RETURN exp SEMICOLON  <br>      
+*  loopStatement: <br> LOOP term SMALLER term RETURN exp SEMICOLON  <br>      
         **|** LOOP term BIGGER term RETURN exp SEMICOLON      <br>
     	**|** LOOP term SMALLER term RETURN PRINT exp SEMICOLON<br>
     	**|** LOOP term BIGGER term RETURN PRINT exp SEMICOLON <br>
