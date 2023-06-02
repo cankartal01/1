@@ -15,18 +15,19 @@ Members :<br>
 	**|** program statements <br>
 	**|** statements <br>
 	**|** error <br>
-* statement :  statements
-        **|** printnumberStatement
-        **|** ınputStatement
-        **|** IfElseStatement
-        **|** loopStatement
-        **|** commentStatement
-        **|** assignmentStatement
-    	**|** printStringStatement
-    	**|** booleanStatement
-	**|** methodStatement
-	**|** methodSingleParameterStatement
-	**|** methodDoubleParameterStatement
+* statement :  
+ 	statements <br>
+        **|** printnumberStatement <br>
+        **|** ınputStatement <br> 
+        **|** IfElseStatement <br>
+        **|** loopStatement <br>
+        **|** commentStatement <br>
+        **|** assignmentStatement <br>
+    	**|** printStringStatement <br>
+    	**|** booleanStatement <br>
+	**|** methodStatement <br>
+	**|** methodSingleParameterStatement <br>
+	**|** methodDoubleParameterStatement <br>
 
 * printStringStatement:<br>
     	**PRINT STRING**
