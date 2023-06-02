@@ -43,13 +43,13 @@ Members :<br>
 	**|** METHOD FUNCNAME OPP term CLP RETURN <br>
 	**|** METHOD FUNCNAME OPP term COMMA term CLP RETURN IfElseStatement <br>
 
-* commentStatement : 
+* **commentStatement :** <br>
 	COMMENT
 
-* inputStatement:
+* **inputStatement:** <br>
 	 INPUT
 
-* booleanStatements :<br>
+* **booleanStatements :**<br>
  	INT EQUALS INT <br>
 	**|** INT BIGGER INT <br>
 	**|** INT SMALLER INT <br>
@@ -57,14 +57,14 @@ Members :<br>
 	**|** INT SMALLER_EQUALS INT <br>
 	**|** INT AND INT <br>
 	**|** INT OR INT  <br>
-* IfElseStatements:  <br>
+* **IfElseStatements:**  <br>
 	IF booleanExpression exp ELSE exp <br>
 	**|** IF booleanExpression PRINT term ELSE PRINT term <br>
 	**|** IF term EQUALS term exp ELSE  <br>
 	**|** IF OPP term MOD term CLP EQUALS term  <br>
 	**|** IF term EQUALS term PRINT STRING ELSE PRINT STRING<br>
 
-*  loopStatement: <br> LOOP term SMALLER term RETURN exp SEMICOLON       
+*  **loopStatement:** <br> LOOP term SMALLER term RETURN exp SEMICOLON       
         LOOP term BIGGER term RETURN exp SEMICOLON      <br>
     	**|** LOOP term SMALLER term RETURN PRINT exp SEMICOLON<br>
     	**|** LOOP term BIGGER term RETURN PRINT exp SEMICOLON <br>
