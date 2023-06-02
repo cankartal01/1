@@ -9,13 +9,13 @@ Members :<br>
 
 ### Blocks and Commands ###
 
-* program :  <br>
+* **program :**  <br>
  	GO program STOP <br>
         **|** statements program <br>
 	**|** program statements <br>
 	**|** statements <br>
 	**|** error <br>
-* statement :  
+* **statement : **  
  	statements <br>
         **|** printnumberStatement <br>
         **|** ınputStatement <br> 
@@ -29,10 +29,10 @@ Members :<br>
 	**|** methodSingleParameterStatement <br>
 	**|** methodDoubleParameterStatement <br>
 
-* printStringStatement:<br>
+* **printStringStatement:**<br>
     	**PRINT STRING**
 
-* printnumberStatement:<br>
+* **printnumberStatement:**<br>
         **PRINT term**
 
 * assignmentStatement:<br>
