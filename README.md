@@ -25,13 +25,13 @@ Members :<br>
 	**|** methodDoubleParameterStatement
 
 * printStringStatement:
-    	PRINT STRING 
+    	**PRINT STRING 
 
 * printnumberStatement:
-        PRINT term 
+        **PRINT term 
 
 * assignmentStatement:
-        ASSIGN '=' exp
+        **ASSIGN '=' exp
 
 * funcStatement : **FUNC** **FUNCNAME** statements **RETURN** statements **SEMICOLON** | **FUNC** **FUNCNAME** **LP** term **RP** **RETURN** | **FUNC** **FUNCNAME** **LP** term **COMMA** term **RP** **RETURN** IfElseStatement
 
@@ -39,8 +39,8 @@ Members :<br>
 
 * scannerStatement: **SCANNER**
 
-* boolStatements :<br>
- 	**|** INT EQUALS INT <br>
+* booleanStatements :<br>
+ 	INT EQUALS INT <br>
 	**|** INT BIGGER INT <br>
 	**|** INT SMALLER INT <br>
 	**|** INT BIGGER_EQUALS INT <br>
@@ -48,14 +48,14 @@ Members :<br>
 	**|** INT AND INT <br>
 	**|** INT OR INT  <br>
 * IfElseStatements:  <br>
-	**|** IF booleanExpression exp ELSE exp <br>
+	IF booleanExpression exp ELSE exp <br>
 	**|** IF booleanExpression PRINT term ELSE PRINT term <br>
 	**|** IF term EQUALS term exp ELSE  <br>
 	**|** IF OPP term MOD term CLP EQUALS term  <br>
 	**|** IF term EQUALS term PRINT STRING ELSE PRINT STRING<br>
 
 *  loopStatement: <br> LOOP term SMALLER term RETURN exp SEMICOLON       
-        **|** LOOP term BIGGER term RETURN exp SEMICOLON      <br>
+        LOOP term BIGGER term RETURN exp SEMICOLON      <br>
     	**|** LOOP term SMALLER term RETURN PRINT exp SEMICOLON<br>
     	**|** LOOP term BIGGER term RETURN PRINT exp SEMICOLON <br>
 	**|** LOOP term SMALLER term RETURN PRINT STRING SEMICOLON <br>
