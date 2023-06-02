@@ -1,4 +1,4 @@
-# Famus Language
+**Famus Language**
 
 **Project Name:** famus
 
