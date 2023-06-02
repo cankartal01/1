@@ -128,15 +128,13 @@ In Famus language, "print" is used to display values on the screen. We print wit
 
 ```
 START
-a = 2
-OUTPUT:"Hello WORLD !"
-OUTPUT:a
+PRINT:"SELAM"
 END
 
 ```
-> Hello WORLD !
+> SELAM
 
-> 2
+
 
 :arrow_forward: BOOLEAN OPERATION DESCRIPTION
 
