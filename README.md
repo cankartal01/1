@@ -206,7 +206,7 @@ STOP /*line5
 ```
 > syntax error on line 4
 
-* **Example Program--> 1 **
+* **Example Program--> 1**
 
 ```
 GO 
@@ -222,7 +222,7 @@ STOP
 ```
 > 1
 
-* **Example Program--> 2 **
+* **Example Program--> 2**
 
 ```
 GO
@@ -234,7 +234,7 @@ STOP
 > 1
 
 
-* **Example Program--> 3 **
+* **Example Program--> 3**
 
 ```
 GO
