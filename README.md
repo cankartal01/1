@@ -118,14 +118,6 @@ Members :<br>
  **|** BIGGER<br>
  **|** SMALLER<br>
 
-
-&nbsp;
-<a name="types"></a>
-### Types ###
-
-* < term >  :  **EUCLID**  | **IDENTIFIER**
-
-
 &nbsp;
 <a name="ExplanationSysntax"></a>
 ## Explanation Of the Syntax
