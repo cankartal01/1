@@ -9,9 +9,9 @@ Members :<br>
 
 ### Blocks and Commands ###
 
-* < program > :**GO** program **STOP** | statements program | program statements | statements  | error 
+* program :**GO** program **STOP** | statements program | program statements | statements  | error 
 
-*  < statement > :  statements
+* statement :  statements
         **|** printnumberStatement
         **|** ınputStatement
         **|** IfElseStatement
@@ -43,13 +43,27 @@ Members :<br>
 
 * IfElseStatements:  **IF booleanExpression exp ELSE exp | IF booleanExpression PRINT term ELSE PRINT term | IF term EQUALS term exp ELSE  | IF OPP term MOD term CLP EQUALS term  | IF term EQUALS term PRINT STRING ELSE PRINT STRING**
 
-* < whileStatement > : **WHILE** term **SMALLER** term **RETURN** exp **SEMICOLON**  | **WHILE** term **BIGGER** term **RETURN** exp **SEMICOLON**  | **WHILE** term **SMALLER** term **RETURN** **OUTPUT** exp **SEMICOLON** | **WHILE** term **BIGGER** term **RETURN** **OUTPUT** exp **SEMICOLON** | **WHILE** term **SMALLER** term **RETURN** **OUTPUT** **STRING** **SEMICOLON** | **WHILE** term **BIGGER** term **RETURN** **OUTPUT** **STRING** **SEMICOLON** | **WHILE** term **NOT_EQUALS** term **RETURN** term '=' term term '=' term assignmentStatement term | **WHILE** term **S** term **RETURN** 
+* < loopStatement: > LOOP term SMALLER term RETURN exp SEMICOLON        
+ 
+        **|** LOOP term BIGGER term RETURN exp SEMICOLON      
+    
+    	**|** LOOP term SMALLER term RETURN PRINT exp SEMICOLON
+ 
+    	**|** LOOP term BIGGER term RETURN PRINT exp SEMICOLON 
+
+	**|** LOOP term SMALLER term RETURN PRINT STRING SEMICOLON 
+
+	**|** LOOP term BIGGER term RETURN PRINT STRING SEMICOLON 
+
+	**|** LOOP term NOT_EQUALS term RETURN term '=' term term '=' term assignmentStatement term 
+
+	**|** LOOP term SMALLER term RETURN
 OUTPUT
 &nbsp;
 <a name="expressions"></a>
 ### Expressions ###
 
-* < expression > : comparisonExpression  | orExpression | andExpression  | boolExpression
+* expression: comparisonExpression  | orExpression | andExpression  | boolExpression
 
 * < exp > : term  |  exp '+' term   |  exp '-' term |  exp **MOD** term |  **FUNCNAME** **LP** term **COMMA** term **RP**    
 
