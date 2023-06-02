@@ -76,7 +76,11 @@ Members :<br>
 <a name="expressions"></a>
 ### Expressions ###
 
-* expression: comparisonExpression  | orExpression | andExpression  | boolExpression
+* **expression:** <br>
+	comparisonExpression  <br>
+	**|** orExpression <br>
+	**|** andExpression  <br>
+	**|** boolExpression <br>
 
 * < exp > : term  |  exp '+' term   |  exp '-' term |  exp **MOD** term |  **FUNCNAME** **LP** term **COMMA** term **RP**    
 
