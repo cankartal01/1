@@ -150,18 +150,18 @@ STOP
 
 > TRUE
 
-:arrow_forward: IF ELSE DESCRIPTION
+* **IF ELSE-->
 
-Many times when you write code, you want to perform different actions for different decisions. Conditionals are used to define a condition. In Freedom language, if-else part consists of two parts, if and else part. IF is used to specify the block of code to execute if the given condition is true, otherwise ELSE is used to specify the block of code to execute if the same condition is false, i.e. it executes the statements after ELSE.
+In the Famus language, the conditional statement consists of two sections, the "if" part and the "else" part. The "if" section is utilized to determine the code block that will be executed if the specified condition is true. Conversely, the "else" section is employed to define the code block that will be executed if the same condition is false, in other words, it executes the statements following the "else" keyword.
 
 ```
-START
-a=5
-IF a<6 
-  OUTPUT:1 
+GO
+a=1
+IF a<10 
+  PRINT:1 
 ELSE 
-  OUTPUT:2
-END
+  PRINT:2
+STOP
 ```
 > 1
 
