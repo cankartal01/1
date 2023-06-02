@@ -121,7 +121,7 @@ Members :<br>
 <a name="ExplanationSysntax"></a>
 ## Explanation Of the Syntax
 
-
+<br>
 * **PRINT DESCRIPTION-->**
 In Famus language, "print" is used to display values on the screen. We print with the keyword "PRINT" and the character ":". 
 
@@ -134,7 +134,7 @@ STOP
 > SELAM
 
 
-
+<br>
 * **BOOLEAN OPERATION DESCRIPTION-->**
 
 In Famus, the Boolean operators are EQUALS, GREATER, LESS, GREATER_EQUALS, LESS_EQUALS, AND, OR, or NOT. There may be operators that compare values and return TRUE or FALSE (like EQUALS, GREATER, LESS, GREATER_EQUALS, or LESS_EQUALS).
@@ -148,7 +148,7 @@ STOP
 > FALSE
 
 > TRUE
-
+<br>
 * **IF ELSE-->**
 
 In the Famus language, the conditional statement consists of two sections, the "if" part and the "else" part. The "if" section is utilized to determine the code block that will be executed if the specified condition is true. Conversely, the "else" section is employed to define the code block that will be executed if the same condition is false, in other words, it executes the statements following the "else" keyword.
@@ -163,7 +163,7 @@ ELSE
 STOP
 ```
 > 1
-
+<br>
 * **LOOP DESCRIPTION-->**
 
 The while loop takes a single parameter and loops as long as that parameter is true. In our programming language, we can use a previously assigned variable as a parameter in a while loop.
@@ -175,7 +175,7 @@ LOOP s < 3 RETURN
 STOP
 ```
 > 15
-
+<br>
 * **METHOD DESCRIPTION-->**
 
 To declare a function in the Famus language, the declaration begins with the keyword "METHOD". After that, the function name is specified using the " : " symbol, followed by parentheses where the parameters are defined based on the function's requirements. Finally, the function body is written using the "RETURN" keyword.
@@ -191,7 +191,7 @@ METHOD yaz: (a , b) RETURN
 STOP
 ```
 > 5
-
+<br>
 * **ERROR HANDLING DESCRIPTON-->**
 
 Error handling has been incorporated into our programming language to anticipate, identify, and resolve programming, application, and communication errors. When an error occurs, the user is provided with an error message indicating that error handling has been triggered and the line number where the error has occurred.
@@ -204,7 +204,7 @@ unrecognized_text  /*line4
 STOP /*line5
 ```
 > syntax error on line 4
-
+<br>
 * **Example Program--> 1**
 
 ```
@@ -220,7 +220,7 @@ METHOD hangisibuyuk: (a , b) RETURN
 STOP
 ```
 > 1
-
+<br>
 * **Example Program--> 2**
 
 ```
@@ -232,7 +232,7 @@ STOP
 ```
 > 1
 
-
+<br>
 * **Example Program--> 3**
 
 ```
