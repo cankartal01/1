@@ -45,7 +45,7 @@
 
 * boolStatements : **INT EQUALS INT** | **INT BIGGER INT** | **INT SMALLER INT** | **INT BIGGER_EQUALS INT** | **INT SMALLER_EQUALS INT** | **INT AND INT** | **INT OR INT** |
 
-* IfElseStatements:  IF booleanExpression exp ELSE exp | IF booleanExpression PRINT term ELSE PRINT term | IF term EQUALS term exp ELSE  | IF OPP term MOD term CLP EQUALS term  | IF term EQUALS term PRINT STRING ELSE PRINT STRING
+* IfElseStatements:  **IF booleanExpression exp ELSE exp | IF booleanExpression PRINT term ELSE PRINT term | IF term EQUALS term exp ELSE  | IF OPP term MOD term CLP EQUALS term  | IF term EQUALS term PRINT STRING ELSE PRINT STRING**
 
 * < whileStatement > : **WHILE** term **SMALLER** term **RETURN** exp **SEMICOLON**  | **WHILE** term **BIGGER** term **RETURN** exp **SEMICOLON**  | **WHILE** term **SMALLER** term **RETURN** **OUTPUT** exp **SEMICOLON** | **WHILE** term **BIGGER** term **RETURN** **OUTPUT** exp **SEMICOLON** | **WHILE** term **SMALLER** term **RETURN** **OUTPUT** **STRING** **SEMICOLON** | **WHILE** term **BIGGER** term **RETURN** **OUTPUT** **STRING** **SEMICOLON** | **WHILE** term **NOT_EQUALS** term **RETURN** term '=' term term '=' term assignmentStatement term | **WHILE** term **S** term **RETURN** 
 OUTPUT
