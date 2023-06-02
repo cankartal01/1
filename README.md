@@ -7,8 +7,7 @@ Members :<br>
 <br>
 **Mustafa Can Kartal    - 20180808046**
 
- **Blocks and Commands**
-
+ # Blocks and Commands
 * **program :**  <br>
  	GO program STOP <br>
         **|** statements program <br>
