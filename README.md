@@ -40,7 +40,7 @@ Members :<br>
 * scannerStatement: **SCANNER**
 
 * boolStatements :<br>
-* 	**|** INT EQUALS INT <br>
+ 	**|** INT EQUALS INT <br>
 	**|** INT BIGGER INT <br>
 	**|** INT SMALLER INT <br>
 	**|** INT BIGGER_EQUALS INT <br>
