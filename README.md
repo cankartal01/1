@@ -93,7 +93,7 @@ The "Famus" programming language is a beginner-level language that includes basi
   **|**  exp MOD term <br>
   **|**  FUNCNAME OPP term COMMA term CLP  <br>
 
-*  **boolExpression**  :  
+*  **booleanExpression**  :  
   	term EQUALS term   <br>
   	**|** term BIGGER term   <br>
 	**|** term SMALLER term    <br>
