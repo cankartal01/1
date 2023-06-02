@@ -41,9 +41,14 @@ Members :<br>
 
 * boolStatements : **INT EQUALS INT | INT BIGGER INT | INT SMALLER INT | INT BIGGER_EQUALS INT | INT SMALLER_EQUALS INT | INT AND INT | INT OR INT |
 
-* IfElseStatements:  **IF booleanExpression exp ELSE exp | IF booleanExpression PRINT term ELSE PRINT term | IF term EQUALS term exp ELSE  | IF OPP term MOD term CLP EQUALS term  | IF term EQUALS term PRINT STRING ELSE PRINT STRING**
+* IfElseStatements:  <br>
+	**|** IF booleanExpression exp ELSE exp <br>
+	**|** IF booleanExpression PRINT term ELSE PRINT term <br>
+	**|** IF term EQUALS term exp ELSE  <br>
+	**|** IF OPP term MOD term CLP EQUALS term  <br>
+	**|** IF term EQUALS term PRINT STRING ELSE PRINT STRING<br>
 
-*  loopStatement: <br> LOOP term SMALLER term RETURN exp SEMICOLON  <br>      
+*  loopStatement: <br> LOOP term SMALLER term RETURN exp SEMICOLON       
         **|** LOOP term BIGGER term RETURN exp SEMICOLON      <br>
     	**|** LOOP term SMALLER term RETURN PRINT exp SEMICOLON<br>
     	**|** LOOP term BIGGER term RETURN PRINT exp SEMICOLON <br>
