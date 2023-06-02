@@ -39,8 +39,14 @@ Members :<br>
 
 * scannerStatement: **SCANNER**
 
-* boolStatements : **INT EQUALS INT | INT BIGGER INT | INT SMALLER INT | INT BIGGER_EQUALS INT | INT SMALLER_EQUALS INT | INT AND INT | INT OR INT |
-
+* boolStatements :<br>
+* 	**|** INT EQUALS INT <br>
+	**|** INT BIGGER INT <br>
+	**|** INT SMALLER INT <br>
+	**|** INT BIGGER_EQUALS INT <br>
+	**|** INT SMALLER_EQUALS INT <br>
+	**|** INT AND INT <br>
+	**|** INT OR INT  <br>
 * IfElseStatements:  <br>
 	**|** IF booleanExpression exp ELSE exp <br>
 	**|** IF booleanExpression PRINT term ELSE PRINT term <br>
