@@ -43,9 +43,9 @@
 
 * < scannerStatement ? : **SCANNER**
 
-* < boolStatement > : **INT EQUALS INT** | **INT BIGGER INT** | **INT SMALLER INT** | **INT BIGGER_EQUALS INT** | **INT SMALLER_EQUALS INT** | **INT AND INT** | **INT OR INT** | '(' boolStatement ')'
+* boolStatement : **INT EQUALS INT** | **INT BIGGER INT** | **INT SMALLER INT** | **INT BIGGER_EQUALS INT** | **INT SMALLER_EQUALS INT** | **INT AND INT** | **INT OR INT** | '(' boolStatement ')'
 
-* < IfElseStatement > :  **IF** boolExpression exp **ELSE** exp **SEMICOLON** | **IF** boolExpression **OUTPUT** term **ELSE** **OUTPUT** term | **IF** term **EQUALS** term exp **ELSE** | **IF** **LP** term **MOD** term **RP** **EQUALS** term | **IF** term **EQUALS** term **OUTPUT** **STRING** **ELSE** **OUTPUT** **STRING**
+* IfElseStatement:  **IF** boolExpression exp **ELSE** exp **SEMICOLON** | **IF** boolExpression **OUTPUT** term **ELSE** **OUTPUT** term | **IF** term **EQUALS** term exp **ELSE** | **IF** **LP** term **MOD** term **RP** **EQUALS** term | **IF** term **EQUALS** term **OUTPUT** **STRING** **ELSE** **OUTPUT** **STRING**
 
 * < whileStatement > : **WHILE** term **SMALLER** term **RETURN** exp **SEMICOLON**  | **WHILE** term **BIGGER** term **RETURN** exp **SEMICOLON**  | **WHILE** term **SMALLER** term **RETURN** **OUTPUT** exp **SEMICOLON** | **WHILE** term **BIGGER** term **RETURN** **OUTPUT** exp **SEMICOLON** | **WHILE** term **SMALLER** term **RETURN** **OUTPUT** **STRING** **SEMICOLON** | **WHILE** term **BIGGER** term **RETURN** **OUTPUT** **STRING** **SEMICOLON** | **WHILE** term **NOT_EQUALS** term **RETURN** term '=' term term '=' term assignmentStatement term | **WHILE** term **S** term **RETURN** 
 OUTPUT
