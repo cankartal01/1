@@ -10,7 +10,7 @@ Members :<br>
 ### Blocks and Commands ###
 
 * program :
- 	**|** GO program STOP <br>
+ 	GO program STOP <br>
         **|** statements program <br>
 	**|** program statements <br>
 	**|** statements <br>
