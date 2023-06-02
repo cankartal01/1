@@ -43,7 +43,7 @@
 
 * < scannerStatement ? : **SCANNER**
 
-* < boolStatement > : **EUCLID EQUALS EUCLID** | **EUCLID BIGGER EUCLID** | **EUCLID SMALLER EUCLID** | **EUCLID BIGGER_EQUALS EUCLID** | **EUCLID SMALLER_EQUALS EUCLID** | **EUCLID AND EUCLID** | **EUCLID OR EUCLID** | '(' boolStatement ')'
+* < boolStatement > : **INT EQUALS INT** | **INT BIGGER INT** | **INT SMALLER INT** | **INT BIGGER_EQUALS INT** | **INT SMALLER_EQUALS INT** | **INT AND INT** | **INT OR INT** | '(' boolStatement ')'
 
 * < IfElseStatement > :  **IF** boolExpression exp **ELSE** exp **SEMICOLON** | **IF** boolExpression **OUTPUT** term **ELSE** **OUTPUT** term | **IF** term **EQUALS** term exp **ELSE** | **IF** **LP** term **MOD** term **RP** **EQUALS** term | **IF** term **EQUALS** term **OUTPUT** **STRING** **ELSE** **OUTPUT** **STRING**
 
