@@ -12,17 +12,17 @@ Members :<br>
 * < program > :**GO** program **STOP** | statements program | program statements | statements  | error 
 
 *  < statement > :  statements
-        | printnumberStatement
-        | ınputStatement
-        | IfElseStatement
-        | loopStatement
-        | commentStatement
-        | assignmentStatement
-    	| printStringStatement
-    	| booleanStatement
-	| methodStatement
-	| methodSingleParameterStatement
-	| methodDoubleParameterStatement
+        **|** printnumberStatement
+        **|** ınputStatement
+        **|** IfElseStatement
+        **|** loopStatement
+        **|** commentStatement
+        **|** assignmentStatement
+    	**|** printStringStatement
+    	**|** booleanStatement
+	**|** methodStatement
+	**|** methodSingleParameterStatement
+	**|** methodDoubleParameterStatement
 
 * printStringStatement:
     	PRINT STRING 
