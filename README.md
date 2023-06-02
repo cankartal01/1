@@ -291,11 +291,9 @@ METHOD hangisibuyuk: (a , b) RETURN
          PRINT: 2
 
 STOP
-
 ```
-> 5
+> 1
 
-> FALSE
 
 
 &nbsp;
