@@ -100,14 +100,16 @@ Members :<br>
 
 
 
-* < comparisonExpression > :  <br>
+* **comparisonExpression :**  <br>
  EUCLID  assignmentOperator EUCLID <br>
  **|** IDENTIFIER assignmentOperator EUCLID <br>
  **|** IDENTIFIER assignmentOperator IDENTIFIER<br>
 
-* < orExpression > : **BOOL OR BOOL**
+*  **orExpression :**<br>
+   BOOL OR BOOL
 
-* < andExpression > : **BOOL AND BOOL**
+*  **andExpression :** <br>
+	 BOOL AND BOOL
 
 * < assignmentOperator > : **EQUALS** | **BIGGER_EQUALS**  | **SMALLER_EQUALS**  | **BIGGER**  | **SMALLER**
 
