@@ -206,7 +206,7 @@ STOP /*line5
 ```
 > syntax error on line 4
 
-* **Example Program-->**
+* **Example Program--> 1 **
 
 ```
 GO 
@@ -221,6 +221,37 @@ METHOD hangisibuyuk: (a , b) RETURN
 STOP
 ```
 > 1
+
+* **Example Program--> 2 **
+
+```
+GO
+x = 0
+y = 5
+LOOP x < y RETURN PRINT: x ;
+STOP
+```
+> 1
+
+
+* **Example Program--> 3 **
+
+```
+GO
+a = 5
+b = 25
+c = b % a
+PRINT: c
+STOP
+```
+>0
+>0
+>0
+>0
+
+
+
+ 
 
 
 
