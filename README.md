@@ -25,7 +25,7 @@ Members :<br>
 	**|** methodDoubleParameterStatement
 
 * printStringStatement:<br>
-    	**PRINT STRING **
+    	**PRINT STRING**
 
 * printnumberStatement:<br>
         **PRINT term**
@@ -37,7 +37,7 @@ Members :<br>
 
 * commentStatement : **COMMENT**
 
-* scannerStatement: **SCANNER**
+* inputStatement: **INPUT**
 
 * booleanStatements :<br>
  	INT EQUALS INT <br>
@@ -62,8 +62,7 @@ Members :<br>
 	**|** LOOP term BIGGER term RETURN PRINT STRING SEMICOLON <br>
 	**|** LOOP term NOT_EQUALS term RETURN term '=' term term '=' term assignmentStatement term <br>
 	**|** LOOP term SMALLER term RETURN<br>
-OUTPUT
-&nbsp;
+
 <a name="expressions"></a>
 ### Expressions ###
 
