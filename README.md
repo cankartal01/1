@@ -38,7 +38,7 @@ Members :<br>
 * assignmentStatement:<br>
         ASSIGN '='exp
 
-* funcStatement : <br>
+* **funcStatement :** <br>
 	METHOD FUNCNAME statements RETURN statements SEMICOLON <br>
 	**|** METHOD FUNCNAME OPP term CLP RETURN <br>
 	**|** METHOD FUNCNAME OPP term COMMA term CLP RETURN IfElseStatement <br>
