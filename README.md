@@ -6,7 +6,12 @@ Members :<br>
 **[Mehmet Fatih Kızıldağ - 20190808041](https://github.com/FatihKizildag)**
 **[Mustafa Can Kartal    - 20180808046](https://github.com/cankartal01)**
 
-
+ ##  Explanations about the language:
+ <br>
+The "Famus" programming language is a beginner-level language that includes basic loop, boolean, and function operations. Using loops, you can repeat certain actions, while using logical expressions enables you to control your programs based on conditions. Functions are reusable code blocks that perform a specific task. Code in "Famus" must follow specific syntax and semantic rules. This helps to reduce programming errors and increase code readability. Additionally, "Famus" includes various data types, such as numbers, strings, and boolean values. Since "Famus" is still in its early stages, many new features are planned. These may include more advanced data types, complex loops, and additional functions. The goal of the "Famus" language is to help beginners learn fundamental programming concepts and practice coding. It can also be used as a transition language for those wishing to move onto more advanced programming languages.
+<br>
+ 
+ 
  ## Blocks and Commands
 * **program :**  <br>
  	GO program STOP <br>
