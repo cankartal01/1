@@ -3,9 +3,11 @@
 **Project Name:** famus
 
 Members :<br>
-**Mehmet Fatih Kızıldağ - 20190808041**
+**[Mehmet Fatih Kızıldağ - 20190808041](https://github.com/FatihKizildag)**
+**
 <br>
-**Mustafa Can Kartal    - 20180808046**
+**[Mustafa Can Kartal    - 20180808046](https://github.com/cankartal01)**
+
 
  ## Blocks and Commands
 * **program :**  <br>
